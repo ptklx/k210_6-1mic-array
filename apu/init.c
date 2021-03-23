@@ -248,7 +248,7 @@ void init_bf(void)
 	apu_set_audio_gain(APU_AUDIO_GAIN_TEST);
 	apu_voc_set_direction(0);
 	// apu_set_channel_enabled(0x3f);// 0011 1111
-	apu_set_channel_enabled(0x3f);//0111 1111
+	apu_set_channel_enabled(0x7f);//0111 1111
 	apu_set_down_size(0, 0);
 
 #if APU_FFT_ENABLE
